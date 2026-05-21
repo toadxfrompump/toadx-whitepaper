@@ -24,10 +24,19 @@
       box-shadow:0 0 30px rgba(0,255,100,0.15);
     }
 
+    .image-row{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      flex-wrap:wrap;
+      margin-bottom:25px;
+    }
+
     img{
-      width:260px;
+      width:240px;
+      height:auto;
       border-radius:20px;
-      margin:12px;
+      margin:10px;
       box-shadow:0 0 25px rgba(0,255,100,0.25);
     }
 
@@ -60,6 +69,7 @@
       margin-bottom:35px;
       text-shadow:0 0 10px #FF66CC;
     }
+
     .story3{
       font-size:24px;
       line-height:1.8;
@@ -124,15 +134,24 @@
       color:#aaaaaa;
       font-size:18px;
     }
+
   </style>
-<html>
-<img src="logo.png">
- <img src="logo6.png"> 
-  <img src="logo1.png">
-   <head>
-  <title>TOADX</title>
-  <style>
+
+</head>
+
+<body>
+
+  <div class="box">
+
+    <!-- 3 ảnh đầu -->
+    <div class="image-row">
+      <img src="logo.png">
+      <img src="logo6.png">
+      <img src="logo1.png">
+    </div>
+
     <h1>TOADX</h1>
+
     <div class="slogan">
       1 Toad. 2 Bullfrogs. 1 Legend.
     </div>
@@ -180,11 +199,18 @@
     <div class="footer">
       From Toilet To The Moon 🚀
     </div>
-    <br><br>
-    <img src="logo2.png">
-    <img src="logo7.png">
-    <img src="logo3.png">
-  </div>
-</body>
-</html>
 
+    <br><br>
+
+    <!-- 3 ảnh cuối -->
+    <div class="image-row">
+      <img src="logo2.png">
+      <img src="logo7.png">
+      <img src="logo3.png">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
